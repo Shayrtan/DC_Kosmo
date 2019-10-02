@@ -1,0 +1,127 @@
+int col_KIB, ex_KIB, ey_KIB, sum_KIB, x_KIB, y_KIB;
+int Image_0_KIB[51][16];
+int Image_1_KIB[44][16];
+int Image_2_KIB[55][13];
+int Image_3_KIB[47][52];
+int Image_4_KIB[49][51];
+int Image_5_KIB[47][52];
+int Image_6_KIB[51][11];
+int Image_7_KIB[59][11];
+int Image_8_KIB[59][11];
+int Image_9_KIB[29][11];
+int Image_10_KIB[32][12];
+int Image_11_KIB[37][11];
+int Image_12_KIB[32][14];
+int Image_13_KIB[30][23];
+int Image_14_KIB[29][23];
+int Image_15_KIB[31][17];
+
+start_();
+
+m_KIB1: if (findimage_(#Image_0_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 20, 50, 1, 583, 195, 773, 252, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB2; 
+else goto m_KIB2;
+m_KIB2: if (findimage_(#Image_1_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 20, 50, 1, 591, 341, 773, 392, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB1; 
+else goto m_KIB3;
+m_KIB3: if (findimage_(#Image_2_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 20, 50, 1, 595, 500, 762, 547, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB2; 
+else goto m_KIB4;
+m_KIB4: if (findimage_(#Image_3_KIB[0][0], 700, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 489, 481, 600, 589, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB6; 
+else goto m_KIB9;
+m_KIB6: if (findimage_(#Image_5_KIB[0][0], 1000, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 486, 319, 604, 434, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB5; 
+else goto m_KIB8;
+m_KIB5: if (findimage_(#Image_4_KIB[0][0], 700, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 487, 160, 607, 275, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB1; 
+else goto m_KIB7;
+m_KIB7: if (findimage_(#Image_6_KIB[0][0], 700, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 601, 167, 746, 190, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB1; 
+else goto m_KIB12;
+m_KIB8: if (findimage_(#Image_7_KIB[0][0], 1000, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 600, 323, 757, 351, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB5; 
+else goto m_KIB10;
+m_KIB9: if (findimage_(#Image_8_KIB[0][0], 700, 0, 0, 0, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 599, 482, 783, 514, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB6; 
+else goto m_KIB11;
+m_KIB10: if (findimage_(#Image_9_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 1200, -1, -1, -1, 40, 50, 1, 750, 424, 865, 465, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB13; 
+else goto m_KIB1;
+m_KIB13: if (findimage_(#Image_12_KIB[0][0], 2000, 0, 0, 1, 0, 0, -1, 0, 0, 0, -1, -1, -1, 20, 60, 1, 510, 629, 667, 662, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB14; 
+else goto m_KIB16;
+m_KIB14: if (findimage_(#Image_13_KIB[0][0], 4000, 0, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 60, 1, 615, 463, 746, 520, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB16; 
+else goto m_KIB15;
+m_KIB16: if (findimage_(#Image_15_KIB[0][0], 3000, 0, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 20, 75, 1, 590, 660, 720, 750, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB1; 
+else goto m_KIB14;
+m_KIB12: if (findimage_(#Image_11_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 1200, -1, -1, -1, 40, 50, 1, 750, 268, 865, 306, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB13; 
+else goto m_KIB1;
+m_KIB15: if (findimage_(#Image_14_KIB[0][0], 0, 3500, 0, 1, 0, 0, -1, 0, 0, 500, -1, -1, -1, 25, 50, 1, 1250, 0, 1360, 80, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB13; 
+else goto m_KIB13;
+m_KIB11: if (findimage_(#Image_10_KIB[0][0], 700, 0, 0, 1, 0, 0, -1, 0, 0, 1200, -1, -1, -1, 40, 50, 1, 750, 587, 867, 625, #sum_KIB, #x_KIB, #y_KIB)>0) goto m_KIB13; 
+else goto m_KIB1;
+
+
+
+function start_()
+{
+getdisplay(col_KIB, ex_KIB, ey_KIB);
+load_image_();
+pause(1000);
+}
+
+
+function findimage_(int #Image, int t, int p1, int p2, int m, int xm, int ym, int mov_m, int mov_x, int mov_y, int p3, int wait, int cycle, int fon, int r, int p, int k, int xs, int ys, int xf, int yf, int#sum, int#x, int#y)
+{
+int timKIB, sumKIB, xKIB, yKIB, tx, ty, tcycle=0;
+sty: pause(p1);
+sumKIB=0;
+if (t!=0) timKIB=gettime();
+a: if (r==0 && p==100){sum=findimage(k, #Image[0][0], fon, #x[0], #y[0], xs, ys, xf, yf, -1); if (sum>0) goto e;}
+else {sum=findimage(k, #Image[0][0], fon, #x[0], #y[0], xs, ys, xf, yf, r, r, r, r, r, r, p, 1, -1); if (sum>0) goto e;}
+if (t==0) return 0;
+if (gettime()-timKIB<t){sleep(20); goto a;}
+return 0;
+e: sumKIB=sum; xKIB=x[0]; yKIB=y[0];
+pause(p2);
+if (m==1){mouse(LEFT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==2){mouse(MIDDLE, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==3){mouse(RIGHT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==4){mousedown(LEFT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==5){mousedown(MIDDLE, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==6){mousedown(RIGHT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==7){mouseup(LEFT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==8){mouseup(MIDDLE, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==9){mouseup(RIGHT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==10){mousedbl(LEFT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==11){mousedbl(MIDDLE, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==12){mousedbl(RIGHT, xs+xKIB+xm, ys+yKIB+ym); goto hy;}
+if (m==13)mousemove(xs+xKIB+xm, ys+yKIB+ym);
+hy: if (mov_m==1)mousemove(mov_x, mov_y);
+if (m>0 && m<14)pause(p3);
+if (wait!=-1)
+{
+for (int ttim=gettime(); gettime()-ttim<wait; sleep(20))
+{
+if (r==0 && p==100){if (findimage(1, #Image[0][0], fon, #x[0], #y[0], xs, ys, xf, yf, -1)==0)return sumKIB;}
+else {if (findimage(1, #Image[0][0], fon, #x[0], #y[0], xs, ys, xf, yf, r, r, r, r, r, r, p, 1, -1)==0)return sumKIB;}
+}
+if (tcycle<cycle){tcycle++; goto sty;}
+return 0;
+}
+return sumKIB;
+}
+
+
+
+
+function load_image_()
+{
+loadimage (#Image_0_KIB[0][0], "C:\Users\user\Documents\бот 3.0\¬ыследить 1.bmp");
+loadimage (#Image_1_KIB[0][0], "C:\Users\user\Documents\бот 3.0\¬ыследить 2.bmp");
+loadimage (#Image_2_KIB[0][0], "C:\Users\user\Documents\бот 3.0\¬ыследить 3.bmp");
+loadimage (#Image_3_KIB[0][0], "C:\Users\user\Documents\бот 3.0\грейси 2 Ч копи€.bmp");
+loadimage (#Image_4_KIB[0][0], "C:\Users\user\Documents\бот 3.0\√рейси 1.bmp");
+loadimage (#Image_5_KIB[0][0], "C:\Users\user\Documents\бот 3.0\грейси 2.bmp");
+loadimage (#Image_6_KIB[0][0], "C:\Users\user\Documents\бот 3.0\темный 1.bmp");
+loadimage (#Image_7_KIB[0][0], "C:\Users\user\Documents\бот 3.0\темный 2.bmp");
+loadimage (#Image_8_KIB[0][0], "C:\Users\user\Documents\бот 3.0\темный 2 Ч копи€.bmp");
+loadimage (#Image_9_KIB[0][0], "C:\Users\user\Documents\бот 3.0\атака 2.bmp");
+loadimage (#Image_10_KIB[0][0], "C:\Users\user\Documents\бот 3.0\атака 3.bmp");
+loadimage (#Image_11_KIB[0][0], "C:\Users\user\Documents\бот 3.0\атака 1.bmp");
+loadimage (#Image_12_KIB[0][0], "C:\Users\user\Documents\бот 3.0\атака.bmp");
+loadimage (#Image_13_KIB[0][0], "C:\Users\user\Documents\бот 3.0\не получилось.bmp");
+loadimage (#Image_14_KIB[0][0], "C:\Users\user\Documents\бот 3.0\закрыть.bmp");
+loadimage (#Image_15_KIB[0][0], "C:\Users\user\Documents\бот 3.0\назад.bmp");
+}
+
